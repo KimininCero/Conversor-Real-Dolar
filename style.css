@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    text-align: center;
+    margin: 25vh;
+    background-color: #f7f7e1;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 1px #c2b19d;
+    transition: background 0.2s;
+}
+
+button {
+    border-radius: 30px;
+    background-color: #c5b89f;
+    border: none;
+    box-shadow: 2px 3px #72614c;
+}
+
+.dark-mode {
+    background-color: #c2b19d;
+}
+
+.dark-mode button {
+    background-color: #f7f7e1;
+}
